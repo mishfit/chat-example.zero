@@ -1,0 +1,48 @@
+{
+  "name": "chat-example.zero",
+  "version": "0.0.1",
+  "description": "decentralized chat example of ZeroNet",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mishfit/chat-example.zero.git"
+  },
+  "keywords": [
+    "zeronet",
+    "decentralized",
+    "chat"
+  ],
+  "author": "Mish Ochu",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mishfit/chat-example.zero/issues"
+  },
+  "homepage": "https://github.com/mishfit/chat-example.zero#readme",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^3.4.1",
+    "browserify": "^14.4.0",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-define-module": "^0.1.5",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.1.0",
+    "run-sequence": "^2.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
